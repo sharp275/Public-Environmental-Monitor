@@ -24,7 +24,7 @@ The SDS011 particle sensor only has a lifetime about one year under continous op
 
 Therefore, it is desrable to only have it run periodically.  The method given by Mertiful requires additional electronics I don't have easy access to obtain.  
 
-The SDS011 does ship with a serial USB interface and this can utilized to not only abtain data but also set a working period.  
+The SDS011 does ship with a serial USB interface and this can utilized to not only obtain data but also set a working period.  
 
 This means I needed to write a new Python script to obtain data from the SDS011 and send the data to InfluxDB Cloud and Tago.IO.  
 
