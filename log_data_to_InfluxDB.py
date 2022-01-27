@@ -1,7 +1,8 @@
 #  log_data_to_InfluxDB.py
    
-#  Example for logging data to InfluxDB Cloud anf TAgIO for the Metriful MS430. 
-#  This example is designed to run with Python 3 on a Raspberry Pi.
+#  Example for logging data to InfluxDB Cloud and TAgIO for the Metriful MS430. 
+#  This example is designed to run with Python 3 on a Raspberry Pi and based on
+#  the example provided by Metriful Ltd.
    
 #  Copyright 2020 Metriful Ltd. 
 #  Licensed under the MIT License - for further details see LICENSE.txt
@@ -97,7 +98,6 @@ while (True):
       payload[6] = {"variable":"spl","value":f"{sound_data['SPL_dBA']:.1f}"}
       payload[7] = {"variable":"peak_amp","value":f"{sound_data['peak_amp_mPa']:.2f}"}
       payload[8] = {"variable":"illuminance","value":f"{light_data['illum_lux']:.2f}"}
-      payload[9] = {"variable":"particulates","value":f"{particle_data['concentration']:.2f}"}
       requests.post(tago_url, json=payload, headers=tago_header, timeout=2)
       
   except Exception as e:
