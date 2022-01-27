@@ -79,6 +79,6 @@ sudo systemctl start your_service_name.service
 sudo systemctl status your_service_name.service
 ```
 
+Below are links to a public version of one of my Tago.IO dashboards showing the current conditions in my home.
+[Tago.IO](https://admin.tago.io/public/dashboard/5f0b358bbbca64001c768d0d/fed9d914-bb09-43f3-a171-f38501f29d74)
 
-[Tago.IO](https://admin.tago.io/public/dashboard/5f0b358bbbca64001c768d0d/fed9d914-bb09-43f3-a171-f38501f29d74)\
-[Grafana Cloud](https://sharp275.grafana.net/dashboard/snapshot/Q1mVUopp8ebjwyqZFnxlJmAXDIBwBSgj?orgId=1&refresh=5m)
