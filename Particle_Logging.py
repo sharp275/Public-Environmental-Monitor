@@ -8,7 +8,7 @@ import requests
 #########################################################
 # USER-EDITABLE SETTINGS
 
-# How often to measure and read data in minutes (int between 0 and 30, 0 for continous):
+# How often to measure and read data in minutes (integer between 0 and 30, 0 for continous):
 measurement_period = 5
 
 #SDS011 port connection

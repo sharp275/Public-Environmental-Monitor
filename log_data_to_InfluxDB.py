@@ -1,6 +1,6 @@
 #  log_data_to_InfluxDB.py
    
-#  Example for logging data to InfluxDB Cloud and TAgIO for the Metriful MS430. 
+#  Example for logging data to InfluxDB Cloud and Tago.IO for the Metriful MS430. 
 #  This example is designed to run with Python 3 on a Raspberry Pi and based on
 #  the example provided by Metriful Ltd.
    
