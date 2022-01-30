@@ -59,7 +59,7 @@ After=multi-user.target
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/python /home/pi/Env/log_to_influxdb_cloud.py
+ExecStart=/usr/bin/python /path_to_file/file.py
 Restart=always
 RestartSec=60
 
@@ -70,7 +70,7 @@ WantedBy=multi-user.target
 Change the acess permissions to python file to allow for it to be run with the following command.
 
 ```
-sudo chmod + /home/pi/Env/log_to_influxdb_cloud.py
+sudo chmod +x /path_to_file/file.py
 ```
 This will ensure the Python files run after the system starts and restart after any errors.  Make sure the path to log_to_influxdb_cloud.py is correct.  
 
