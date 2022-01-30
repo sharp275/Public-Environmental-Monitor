@@ -2,7 +2,7 @@
 
 
 
-In this project, I utilized the Metriful MS430 sensor board and a Raspberry Pi 4b to monitor various indoor environmental variables.  
+In this project, I utilized the [Metriful MS430 sensor board](https://www.metriful.com/ms430) and a Raspberry Pi 4b to monitor various indoor environmental variables.  
 The data is upload to both a time series database in [InfluxDB Cloud](https://www.influxdata.com/products/influxdb-cloud/) and to [Tago.IO](https://tago.io/), a cloud based solution for IoT.  Both of these have free tiers.  
 
 <figure align="center">
