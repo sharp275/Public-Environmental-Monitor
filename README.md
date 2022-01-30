@@ -72,7 +72,7 @@ Change the acess permissions to python file to allow for it to be run with the f
 ```
 sudo chmod +x /path_to_file/file.py
 ```
-This will ensure the Python files run after the system starts and restart after any errors.  Make sure the path to log_to_influxdb_cloud.py is correct.  
+Creating a systemd service will ensure the Python files run after the system starts and restart after any errors.  Make sure the path to log_to_influxdb_cloud.py is correct.  
 
 Use the following code to enable, start, and check the status of the service.
 
