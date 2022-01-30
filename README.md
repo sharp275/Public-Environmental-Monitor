@@ -54,7 +54,7 @@ sudo nano your_service_name.service
 Place the following text into file.  
 ```
 [Unit]
-Description=Log data to influxdb cloud and tago.io
+Description=your custom description
 After=multi-user.target
 
 [Service]
