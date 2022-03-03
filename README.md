@@ -67,7 +67,7 @@ RestartSec=60
 WantedBy=multi-user.target
 
 ```  
-Change the acess permissions to python file to allow for it to be run with the following command.
+Change the access permissions to python file to allow for it to be run with the following command.
 
 ```
 sudo chmod +x /path_to_file/file.py
