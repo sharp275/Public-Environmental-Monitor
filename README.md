@@ -14,7 +14,7 @@ The data is upload to both a time series database in [InfluxDB Cloud](https://ww
 ### **Description of Python Files**  
   
 
-The [log_data_to_InfluxDB.py](log_data_to_InfluxDB.py) is a modification of the IoT cloud logging file supplied by Metriful Ltd.  This file requires the Python package influxdb-cliant installed.  
+The [log_data_to_InfluxDB.py](log_data_to_InfluxDB.py) is a modification of the IoT cloud logging file supplied by Metriful Ltd.  This file requires the Python package influxdb-client installed.  
 This can be installed by
 ```
 pip install influxdb-client
