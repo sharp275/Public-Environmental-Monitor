@@ -9,7 +9,7 @@ The data is upload to both a time series database in [InfluxDB Cloud](https://ww
 <img src="MS430.png"/>
 <figcaption align = "center"><b>© 2020 Metriful Ltd.</b></figcaption>
 </figure>
-<p></br></p>
+
 
 ### **Description of Python Files**  
   
