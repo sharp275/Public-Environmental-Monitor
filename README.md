@@ -86,7 +86,7 @@ sudo systemctl status your_service_name.service
 Below is a link to a public version of one of my Tago.IO dashboards showing the current conditions in my home.  
 [Tago.IO](https://5f07850bea86c1001c5c2ad7.run.tago.io)
 
-<iframe width="800" height="600" src="https://embed.tago.io?widget=5f0b330c82da2b001c15d578&dashboard=5f0b330c82da2b001c15d576&token=d8da862e-fa08-4652-ad01-871c7ee4da15" />
+<iframe width="800" height="600" src="https://embed.tago.io?widget=5f0b330c82da2b001c15d578&dashboard=5f0b330c82da2b001c15d576&token=d8da862e-fa08-4652-ad01-871c7ee4da15" ></iframe>
 
 
 <iframe width="800" height="600" src="https://embed.tago.io?widget=5f0b330c82da2b001c15d579&dashboard=5f0b330c82da2b001c15d576&token=b15c782f-c8e9-410f-856f-bcfb88850ccf" frameborder="0" allowfullscreen />
