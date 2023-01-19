@@ -86,13 +86,16 @@ sudo systemctl status your_service_name.service
 Below is a link to a public version of one of my Tago.IO dashboards showing the current conditions in my home.  
 [Tago.IO](https://5f07850bea86c1001c5c2ad7.run.tago.io)
 
-
+Temperature(F)
 <iframe width="800" height="600" src="https://embed.tago.io?widget=5f0b330c82da2b001c15d578&dashboard=5f0b330c82da2b001c15d576&token=d8da862e-fa08-4652-ad01-871c7ee4da15" frameborder="0"></iframe>
 
+Humdity(%)
 <iframe width="800" height="600" src="https://embed.tago.io?widget=5f0b330c82da2b001c15d579&dashboard=5f0b330c82da2b001c15d576&token=b15c782f-c8e9-410f-856f-bcfb88850ccf" frameborder="0"></iframe>
 
+Air Pressure (atm)
 <iframe width="800" height="600" src="https://embed.tago.io?widget=61202c11f055140018dd189e&dashboard=5f0b330c82da2b001c15d576&token=2d2efaca-58b7-4764-9124-f4f19603fa7c" frameborder="0"></iframe>
 
+Particles (micrograms per cubic meter)
 <iframe width="800" height="600" src="https://embed.tago.io?widget=61f08a00ee930600185c1995&dashboard=5f0b330c82da2b001c15d576&token=1b0e88dd-903a-4468-b318-3486b04ae87b" frameborder="0"></iframe>
 
 <figure align="center">
